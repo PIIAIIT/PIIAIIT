@@ -9,7 +9,7 @@
 
 I am 22 years old self-proclaimed programmer.
 <br/>
-For the most part I use __PYTHON__, but I recently got myself hooked on __C++__.
+For the most part I use __Python__, but I recently got myself hooked on __C++__.
 <br/>
 <br/>
 
