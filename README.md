@@ -1,16 +1,25 @@
-### Hi there 👋
+
+# Hi there, my name is Patrick
+
+![not mine](https://c.tenor.com/RRhijk6pHAoAAAAd/good-morning.gif)
+###### (I don't own this)
 
 
-**PIIAIIT/PIIAIIT** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# About me
 
-Here are some ideas to get you started:
+I am 22 years old self-proclaimed programmer.
+<br/>
+For the most part I use __PYTHON__, but I recently got myself hooked on __C++__.
+<br/>
+<br/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 
+
+```cpp
+int main() {
+  std::out << "Hello World";
+  return 0;
+}
+```
+
+#### I still have to edit my repos so bear with me (. ❛ ᴗ ❛.)
