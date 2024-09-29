@@ -7,7 +7,8 @@
 
 # About me
 
-I am 22 years old self-proclaimed programmer.
+I am 24 years old self-proclaimed programmer.
+
 <br/>
 For the most part I use __Python__, but I recently got myself hooked on __C++__.
 <br/>
