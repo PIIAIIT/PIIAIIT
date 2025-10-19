@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Interpreter & Compiler",
+    "description_short": "A small interpreter and compiler",
+    "description": "A small interpreter and compiler for a custom programming language.",
+    "background_image": "https://thumbs.dreamstime.com/b/developing-programming-script-procedure-creating-seo-optimization-124596660.jpg",
+    "background_image_alt": "Coding a programming language",
+    "technologies": ["Lexer", "Parser", "Python", "Assembly", "C"],
+    "repository": "https://github.com/PIIAIIT/InCC25"
+  }
+]

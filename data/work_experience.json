@@ -1,0 +1,28 @@
+[
+  {
+    "company": "Zoo & Co.",
+    "position": "Einzelhandelskaufmann",
+    "location": "Bonn",
+    "startDate": "2017/07",
+    "endDate": "2020/06",
+    "responsibilities": [
+      "Beratung und Verkauf von Tiernahrung und -zubehör",
+      "Pflege und Fütterung der Tiere im Laden",
+      "Kundenservice und Reklamationsbearbeitung",
+      "Mitarbeit bei der Warenbestellung und -lagerung"
+    ]
+  },
+  {
+    "company": "Zoo & Co.",
+    "position": "Einzelhandelskaufmann Vollzeit",
+    "location": "Bonn",
+    "startDate": "2020/06",
+    "endDate": "2020/09",
+    "responsibilities": [
+      "Beratung und Verkauf von Tiernahrung und -zubehör",
+      "Pflege und Fütterung der Tiere im Laden",
+      "Kundenservice und Reklamationsbearbeitung",
+      "Mitarbeit bei der Warenbestellung und -lagerung"
+    ]
+  }
+]

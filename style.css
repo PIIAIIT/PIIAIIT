@@ -1,0 +1,243 @@
+* {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+/* NAV BAR */
+#menu-icon {
+  display: none;
+}
+#header {
+  background-color: #cccccc;
+  text-align: center;
+  padding: 1em 0;
+}
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+#navbar a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navbar a .link-text:hover {
+  text-decoration: underline;
+}
+/* NAV BAR */
+
+/* Main Content */
+main, footer {
+  background-color: #f9f9f9;
+  padding: 2em 20%;
+}
+
+/* CV Header  */
+#header-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 2em 0;
+  gap: 2em;
+}
+#profile-picture {
+  width: 10em;
+  max-width: 100%;
+  height: auto;
+}
+#profile-picture > img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+#header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.3em;
+}
+#header-info > h1 {
+  font-size: 2.5em;
+}
+#header-info > p {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  color: #666666;
+}
+#header-info > #contact-info {
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 0.3em 0.8em;
+  box-sizing: content-box;
+  background-color: #ccc;
+  border-radius: 20px;
+}
+#header-info > #contact-info:hover {
+  background-color: #bbb;
+}
+#contact-info > p {
+  color: #000;
+  text-align: center;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+main > section > h2:first-child {
+  margin-bottom: 0.6em;
+}
+
+/* Section Titles */
+main > section > h2 {
+  font-size: 1.8em;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.2em;
+  margin-bottom: 1em;
+}
+
+main > section > h3 {
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+main > section > div > h3 {
+  margin: 0.5em 0;
+}
+
+#programming-languages, #languages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1em;
+}
+#programming-languages h3, #languages h3 {
+  grid-column: span 2;
+}
+.skill-bar {
+  width: 100%;
+  height: 1.5em;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+.skill-level {
+  height: 100%;
+  background-color: #6666ff;
+  border-radius: 5px;
+}
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5em;
+}
+
+#projects > h2 {
+  grid-column: span 3;
+} 
+.project {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.project img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.project-info {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0.5em;
+  opacity: 0;
+  box-sizing: border-box;
+}
+.project:hover .project-info {
+  opacity: 1;
+}
+
+/* FOOTER */
+footer {
+  font-size: 0.9em;
+  color: #666666;
+  margin-top: 2em;
+}
+footer + h2 {
+  margin-top: 1em;
+}
+footer > div {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+}
+.contact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+  cursor: pointer;
+}
+.contact-item > a {
+  text-decoration: none;
+  color: #333;
+}
+.contact-item > a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  main, footer {
+    padding: 2em 5%;
+  }
+  #header-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #header-info {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  /* #menu-icon { */
+  /*   display: block; */
+  /*   cursor: pointer; */
+  /* } */
+  #header {
+    text-align: left;
+    padding: 1em;
+  }
+  #navbar .link-text {
+    display: none;
+  }
+  #header-info > p {
+    max-width: 80%;
+  }
+}

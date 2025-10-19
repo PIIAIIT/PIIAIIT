@@ -1,0 +1,22 @@
+[
+  {
+    "language": "Python",
+    "proficiency_level": 80
+  },
+  {
+    "language": "Java",
+    "proficiency_level": 80
+  },
+  {
+    "language": "C",
+    "proficiency_level": 70
+  },
+  {
+    "language": "C++",
+    "proficiency_level": 60
+  },
+  {
+    "language": "JavaScript",
+    "proficiency_level": 40
+  }
+]
