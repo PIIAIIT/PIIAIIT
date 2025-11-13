@@ -3,8 +3,8 @@
     "company": "Zoo & Co.",
     "position": "Einzelhandelskaufmann",
     "location": "Bonn",
-    "startDate": "2017/07",
-    "endDate": "2020/06",
+    "startDate": "2020/09",
+    "endDate": "2023/09",
     "responsibilities": [
       "Beratung und Verkauf von Tiernahrung und -zubehör",
       "Pflege und Fütterung der Tiere im Laden",
@@ -13,16 +13,11 @@
     ]
   },
   {
-    "company": "Zoo & Co.",
-    "position": "Einzelhandelskaufmann Vollzeit",
-    "location": "Bonn",
-    "startDate": "2020/06",
-    "endDate": "2020/09",
-    "responsibilities": [
-      "Beratung und Verkauf von Tiernahrung und -zubehör",
-      "Pflege und Fütterung der Tiere im Laden",
-      "Kundenservice und Reklamationsbearbeitung",
-      "Mitarbeit bei der Warenbestellung und -lagerung"
-    ]
+    "company": "Rewe Center Alfter-Oedekoven",
+    "position": "Schülerpraktikum",
+    "location": "Alfter",
+    "startDate": "2018/07",
+    "endDate": "2018/08",
+    "responsibilities": []
   }
 ]

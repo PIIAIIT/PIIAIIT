@@ -1,8 +1,3 @@
-// Events
-document.addEventListener("DOMContentLoaded", function() {
-  loadProjects();
-});
-
 // Create project entry
 function createProjectEntry(project) {
   const projectDiv = document.createElement('div');
@@ -28,15 +23,24 @@ function createProjectEntry(project) {
   return projectDiv;
 }
 
-function loadProjects() {
+async function loadProjects() {
     const projectsContainer = document.getElementById("projects");
-    fetch('data/projects.json')
-    .then(res => res.json())
-    .then(data => {
-        data.forEach(project => {
-            const projectEntry = createProjectEntry(project);
-            projectsContainer.appendChild(projectEntry);
-        });
-    })
-    .catch(error => console.error('Error loading projects:', error));
+
+  try {
+    const res = await fetch('data/projects.json');
+    const data = await res.json();
+
+    const entries = data.map(project => createProjectEntry(project));
+    projectsContainer.append(...entries);
+  }
+  catch (err) {
+    console.error('Error loading projects:', err);
+  }
 }
+
+// Events
+document.addEventListener("DOMContentLoaded", async () => {
+  await Promise.all([
+    loadProjects(),
+  ]);
+});

@@ -119,6 +119,61 @@ main > section > div > h3 {
   margin: 0.5em 0;
 }
 
+.work-entry, .education-entry {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 1em;
+  border-left: 4px solid #6666ff;
+  margin-bottom: 1.5em;
+  padding-left: 1em;
+}
+.work-entry h3 {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 0;
+}
+.work-entry .duration {
+  font-size: 0.9em;
+  color: #666666;
+}
+.work-entry .responsibilities {
+  grid-column: 2;
+  grid-row: 2;
+  list-style-type: disc;
+}
+.education-entry {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: auto auto 1fr;
+  gap: 1em;
+  row-gap: 0.5em;
+  border-left: 4px solid #6666ff;
+  margin-bottom: 1.5em;
+  padding-left: 1em;
+}
+.education-entry h3 {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 0;
+}
+.education-entry .duration {
+  font-size: 0.9em;
+  color: #666666;
+}
+.education-entry .details {
+  grid-column: 2;
+  grid-row: 3;
+  list-style-type: none;
+  padding-left: 0;
+}
+.education-entry .location {
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 0.9em;
+  color: #666666;
+}
+
 #programming-languages, #languages {
   display: grid;
   grid-template-columns: 1fr 1fr;

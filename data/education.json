@@ -3,12 +3,41 @@
     "degree": "B.Sc. in Computer Science",
     "institution": "Hochschule Bonn-Rhein-Sieg",
     "location": "Sankt Augustin, Germany",
-    "startDate": "2020/09",
+    "startDate": "2023/09",
     "endDate": "heute",
     "details": [
       "GPA: 1.7",
       "Spezialisierung in Komplexe Softwaresysteme",
       "Relevante Kurse: Datenbanken, Betriebssysteme, Netzwerke, Softwareentwicklung"
     ]
+  }, 
+  {
+    "degree": "Einzelhandelskaufmann",
+    "institution": "Friedrich-List-Berufskolleg Bonn",
+    "location": "Bonn, Germany",
+    "startDate": "2020/09",
+    "endDate": "2023/09",
+    "details": [
+      "schulischer Teil"
+    ]
+  }, 
+  {
+    "degree": "Fachabitur",
+    "institution": "Berufskolleg Bonn-Duisdorf",
+    "location": "Bonn-Duisdorf, Germany",
+    "startDate": "2017/08",
+    "endDate": "2019/09",
+    "details": [
+      "Schwerpunkt: Einzelhandel",
+      "Abschlussnote: 3.0"
+    ]
+  }, 
+  {
+    "degree": "Fachoberschulreife",
+    "institution": "Realschule Hardtberg",
+    "location": "Bonn, Germany",
+    "startDate": "2010/08",
+    "endDate": "2017/05",
+    "details": []
   }
 ]
